@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microsoft Teams"
+        android:textSize="35sp"
+        android:paddingTop="70dp"
+        android:textColor="#654dcb"
+        android:layout_gravity="center"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="100dp">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="265dp"
+                android:src="@drawable/teams"
+                ></ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get started with your work, school or"
+            android:layout_marginLeft="70dp"
+            android:paddingTop="15dp"
+            android:layout_marginRight="60dp"></TextView>
+
+
+      </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="personal Microsoft account"
+            android:layout_marginLeft="100dp"
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <EditText
+            android:id="@+id/editq1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="0dp"
+            android:hint="Enter email, phone or Skype"
+            android:background="@drawable/editstyle"
+            android:padding="13dp"
+            android:textSize="14dp"
+            ></EditText>
+
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"></LinearLayout>
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:backgroundTint="#654dcb"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            ></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get help with signing in"
+            android:layout_marginLeft="125dp"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#654dcb"
+            ></TextView>
+        <android.widget.Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:text="Join a meeting"
+            android:textColor="#654dcb"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/border"
+            ></android.widget.Button>
+    <android.widget.Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:text="Sign up for free"
+        android:textAlignment="center"
+        android:textColor="#654dcb"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:drawableLeft="@drawable/microsofticon">
+
+    </android.widget.Button>
+
+</LinearLayout>

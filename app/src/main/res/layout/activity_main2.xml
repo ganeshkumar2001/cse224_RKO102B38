@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#FFEB3B">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Enter the name"
+        android:textColorHint="#F44336"
+        ></EditText>
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/edit1"
+       android:id="@+id/radioG">
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Radio1"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        ></RadioButton>
+       <RadioButton
+           android:id="@+id/radio2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/edit1"
+           android:layout_marginLeft="30dp"
+           android:text="Radio2"
+           android:textSize="20sp"
+           android:textColor="#F44336"
+           ></RadioButton>
+   </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/radioG"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/edit1"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:text="Checkbox1"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        ></CheckBox>
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/radioG"
+        android:layout_below="@id/check1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:text="Checkbox2"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        ></CheckBox>
+
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#F44336"
+        android:layout_below="@+id/check1"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#4DCC91"
+        android:textStyle="bold"
+        ></Button>
+
+
+
+
+
+</RelativeLayout>
